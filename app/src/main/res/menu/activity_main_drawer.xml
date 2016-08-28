@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/jl__icon_payment"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_promo"
+            android:icon="@drawable/jl__icon_menu_promo_normal"
+            android:title="Promo" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/jl__icon_menu_notifications_normal"
+            android:title="Notifcations" />
+        <item
+            android:id="@+id/nav_moment"
+            android:icon="@drawable/jl__icon_menu_trip_moment_normal"
+            android:title="Moment" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/jl__icon_menu_support_normal"
+            android:title="Support" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/jl__icon_menu_share_normal"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Sent email" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+    </group>
+</menu>
